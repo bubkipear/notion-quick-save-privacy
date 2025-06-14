@@ -1,0 +1,1 @@
+# notion-quick-save-privacy
