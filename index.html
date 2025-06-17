@@ -1,87 +1,108 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Notion Quick Save - Privacy Policy</title>
-      <style>
-          body {
-              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  Roboto, sans-serif;
-              max-width: 800px;
-              margin: 0 auto;
-              padding: 40px 20px;
-              line-height: 1.6;
-              color: #333;
-          }
-          h1 { color: #2c3e50; }
-          h2 { color: #34495e; margin-top: 30px; }
-      </style>
-  </head>
-  <body>
-      <h1>Privacy Policy for Notion Quick Save</h1>
-      <p><strong>Effective Date:</strong> [Today's Date]</p>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notion Quick Save - Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1 { color: #2c3e50; }
+        h2 { color: #34495e; margin-top: 30px; }
+        .warning { 
+            background: #fff3cd; 
+            border: 1px solid #ffeaa7; 
+            padding: 10px; 
+            border-radius: 5px; 
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Privacy Policy for Notion Quick Save</h1>
+    <p><strong>Effective Date:</strong> December 2024</p>
 
-      <h2>Information We Collect</h2>
-      <p><strong>Notion Quick Save</strong> only collects the minimal
-  information necessary to provide its core functionality:</p>
-      <ul>
-          <li><strong>Notion Access Token:</strong> Stored locally in your
-  browser to authenticate with your Notion account</li>
-          <li><strong>Selected Page Preferences:</strong> Your chosen Notion
-  page/database for saving content (stored locally)</li>
-          <li><strong>Extension Settings:</strong> Your preferences like text
-  popup toggle settings (stored locally)</li>
-      </ul>
+    <h2>How This Extension Works</h2>
+    <p><strong>Notion Quick Save</strong> is a local-only extension that facilitates direct transfers between your browser and your accounts. We do not collect, store, or have access to your personal information.</p>
 
-      <h2>How We Use Your Information</h2>
-      <ul>
-          <li><strong>Notion Integration:</strong> Your access token is used
-  solely to save content to your chosen Notion pages</li>
-          <li><strong>Functionality:</strong> Settings are stored to remember
-  your preferences across browsing sessions</li>
-          <li><strong>No Tracking:</strong> We do not track your browsing
-  activity or collect analytics</li>
-      </ul>
+    <h2>Data Processing</h2>
+    <p>When you use this extension, the following happens:</p>
+    <ul>
+        <li><strong>Text & URLs:</strong> Content you select is sent directly from your browser to your Notion account</li>
+        <li><strong>Screenshots:</strong> Images are uploaded directly to Imgur to generate a URL, then that URL is sent to your Notion account</li>
+        <li><strong>Authentication:</strong> Your Notion login token is stored locally in your browser only</li>
+        <li><strong>Settings:</strong> Your preferences are stored locally in your browser only</li>
+    </ul>
 
-      <h2>Information Storage and Security</h2>
-      <ul>
-          <li>All data is stored locally in your browser using Chrome's secure
-  storage API</li>
-          <li>Your Notion access token is transmitted only directly to Notion's
-   official API endpoints</li>
-          <li>We never store your data on our servers - there are no
-  servers</li>
-          <li>No personal information is collected, stored, or transmitted to
-  third parties</li>
-      </ul>
+    <h2>Data Storage</h2>
+    <ul>
+        <li><strong>No Backend:</strong> We have no servers and store no user data</li>
+        <li><strong>Local Only:</strong> All settings and tokens remain in your browser</li>
+        <li><strong>Direct Transfer:</strong> Content goes directly from your browser to your chosen services</li>
+    </ul>
 
-      <h2>Data Sharing</h2>
-      <ul>
-          <li><strong>We do not share, sell, or transmit your data to any third
-   parties</strong></li>
-          <li>Content you choose to save goes directly from your browser to
-  your Notion account</li>
-          <li>We have no access to your Notion content or personal
-  information</li>
-      </ul>
+    <div class="warning">
+        <strong>About Screenshots:</strong> Screenshots are uploaded to Imgur and get a unique URL. While these URLs are technically "public," they are not indexed or discoverable - only someone with the exact URL can access your screenshot. Do not share these URLs if your screenshots contain sensitive information.
+    </div>
 
-      <h2>Your Rights</h2>
-      <ul>
-          <li><strong>Uninstall:</strong> Remove the extension at any time to
-  delete all stored preferences</li>
-          <li><strong>Revoke Access:</strong> Disconnect your Notion account
-  through Notion's settings at any time</li>
-          <li><strong>Data Control:</strong> All your data remains under your
-  control in your browser and Notion account</li>
-      </ul>
+    <h2>Third-Party Services</h2>
+    <p>This extension transmits your data to the following third-party services:</p>
+    <ul>
+        <li><strong>Notion API (api.notion.com):</strong> All saved content is transmitted to and stored in your Notion workspace</li>
+        <li><strong>Imgur API (api.imgur.com):</strong> Screenshots are uploaded and hosted publicly on Imgur's servers</li>
+    </ul>
 
-      <h2>Changes to This Policy</h2>
-      <p>We may update this privacy policy as needed. Any changes will be
-  reflected in the extension's store listing.</p>
+    <h2>Data Storage and Security</h2>
+    <ul>
+        <li><strong>Local Storage:</strong> Authentication tokens and preferences are stored locally using Chrome's storage API</li>
+        <li><strong>Remote Storage:</strong> Your content is stored in your Notion workspace and screenshots on Imgur's servers</li>
+        <li><strong>Public Access:</strong> Screenshots become publicly accessible via Imgur URLs</li>
+        <li><strong>No Encryption:</strong> Local storage is not encrypted beyond browser security measures</li>
+    </ul>
 
-      <h2>Contact</h2>
-      <p>For questions about this privacy policy, please contact:
-  [bubkipear@gmail.com]</p>
-  </body>
-  </html>
+    <h2>Permissions and Website Access</h2>
+    <p>This extension requires the following permissions:</p>
+    <ul>
+        <li><strong>Access to all websites:</strong> Can read and capture content from any HTTPS website you visit</li>
+        <li><strong>Active tab access:</strong> Reads content from your currently active browser tab</li>
+        <li><strong>Browser storage:</strong> Stores authentication and preference data locally</li>
+        <li><strong>Script injection:</strong> Injects content scripts into web pages for functionality</li>
+        <li><strong>Tab information:</strong> Accesses tab URLs and titles for saving as sources</li>
+    </ul>
+
+    <h2>Your Rights and Controls</h2>
+    <ul>
+        <li><strong>Uninstall:</strong> Remove the extension to delete all locally stored data</li>
+        <li><strong>Revoke Access:</strong> Disconnect your Notion account through your Notion account settings</li>
+        <li><strong>Data Management:</strong> Manage saved content through your Notion workspace</li>
+        <li><strong>Screenshot Control:</strong> You control what screenshots are captured and saved</li>
+    </ul>
+
+    <h2>Data Retention</h2>
+    <ul>
+        <li>Local data is retained until you uninstall the extension</li>
+        <li>Content in Notion is retained according to Notion's data retention policies</li>
+        <li>Screenshots on Imgur are retained according to Imgur's policies</li>
+    </ul>
+
+    <h2>Changes to This Policy</h2>
+    <p>We may update this privacy policy as needed. Any changes will be reflected in the extension's store listing and this page.</p>
+
+    <h2>Contact</h2>
+    <p>For questions about this privacy policy, please contact: bubkipear@gmail.com</p>
+
+    <h2>Compliance</h2>
+    <p>This extension processes data in accordance with:</p>
+    <ul>
+        <li>Chrome Web Store Developer Program Policies</li>
+        <li>Notion's Terms of Service and Privacy Policy</li>
+        <li>Imgur's Terms of Service and Privacy Policy</li>
+    </ul>
+</body>
+</html>
